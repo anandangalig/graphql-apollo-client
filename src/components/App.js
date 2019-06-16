@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../styles/App.css';
+import LinkList from './LinkList';
 
 class App extends React.Component {
   render() {
-    return <h1>App</h1>;
+    return <LinkList />;
   }
 }
 
